@@ -15,6 +15,14 @@ import java.util.Map;
  */
 
 public class OkUtil  {
+    /**
+     *
+     * @param url
+     * @param tag
+     * @param map
+     * @param callback
+     * @param <T>
+     */
     public static <T> void getRequets(String url, Object tag, Map<String, String> map, JsonCallback<T> callback) {
         // TODO: 2017/10/13  加密 时间戳等 请求日志打印
         Log.d("OkGoUtil", "method get");
